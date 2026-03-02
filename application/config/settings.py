@@ -9,4 +9,8 @@ class Settings(BaseSettings):
 
     APP_HOST : str = "0.0.0.0"
     APP_PORT : int = 8000
-        
+    
+
+    ZHIPU_API_KEY : str = ""
+
+    ZHIPU_MODEL_NAME : str = "zhipuai/glm-4-flash"
