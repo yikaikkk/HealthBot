@@ -7,7 +7,7 @@ from HealthBot.application.config import settings
 from HealthBot.application.entitys.agent_state import AgentState
 from HealthBot.application.entitys.agent_state import Router
 
-
+# 分析节点，用于分析输入用户输入并返回路由。
 async def analyze_node(
     state: AgentState, *, config: RunnableConfig
 ) -> dict:
